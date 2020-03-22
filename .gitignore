@@ -1,0 +1,4 @@
+/node_modules
+/public/dist
+/public/service-worker.js
+/.idea

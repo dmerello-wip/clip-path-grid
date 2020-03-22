@@ -1,0 +1,82 @@
+// TODO: importing from css doesn't permit webpack to manage css chunks
+
+/* ---------------------------------------------------------------- */
+/* 1. ABSTRACTS                                                     */
+/* ---------------------------------------------------------------- */
+
+/* In Abstracts you can write your variables or mixins              */
+/* You override Bootstrap variables even if it's before it          */
+
+// @import "./abstracts/_a_custom_variables";
+// @import "./abstracts/_a_mixins";
+
+
+/* ---------------------------------------------------------------- */
+/* 2. JUST IF using Bootstrap:                                      */
+/* ---------------------------------------------------------------- */
+
+// ---- mandatories:
+
+// @import "bootstrap/scss/_functions";
+// @import "bootstrap/scss/_variables";
+// @import "bootstrap/scss/_mixins";
+
+// ---- we suggest:
+
+// @import "bootstrap/scss/_root";
+// @import "bootstrap/scss/_reboot";
+// @import "bootstrap/scss/_grid";
+// @import "bootstrap/scss/_buttons";
+// @import "bootstrap/scss/_forms";
+// @import "bootstrap/scss/_type";
+// @import "button-group";
+// @import "input-group";
+// @import "custom-forms";
+
+/* Look at node_modules/bootstrap/bootstrap.scss to find others */
+
+
+
+/* ---------------------------------------------------------------- */
+/* 3. VENDORS                                                       */
+/* ---------------------------------------------------------------- */
+
+// @import 'vendorFolder/dist/css/styles.css';
+// @import 'vendorFolder/dist/css/styles.css';
+@import '~normalize.css/normalize.css';
+
+
+/* ---------------------------------------------------------------- */
+/* 4. THIS PROJECT STYILING                                         */
+/* ---------------------------------------------------------------- */
+
+/* Highly suggested scaffolding, order, and naming conventions:     */
+
+/* ---------------------------------------------------------------- */
+/* 4.1 Utils:                                                       */
+/* ---------------------------------------------------------------- */
+
+// @import "./utils/_u_typography";
+// @import "./utils/_u_utilityClasses";
+// @import "./utils/_u_buttons";
+
+
+/* ---------------------------------------------------------------- */
+/* 4.2 Components:                                                  */
+/* ---------------------------------------------------------------- */
+
+@import "./components/_c_clipmatrix";
+// @import "./components/_c_productCard";
+
+
+/* ---------------------------------------------------------------- */
+/* 4.3 Layouts:                                                     */
+/* ---------------------------------------------------------------- */
+
+@import "./layouts/_l_home";
+// @import "./layouts/_l_productPage";
+// @import "./layouts/_l_serviceListing";
+
+
+
+
