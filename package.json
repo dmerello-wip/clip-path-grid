@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "clean-webpack-plugin": "^3.0.0",
-    "gsap": "^3.2.5",
+    "gsap": "^3.6.0",
     "image-preloader": "^1.1.1",
     "normalize.css": "^8.0.1"
   },
